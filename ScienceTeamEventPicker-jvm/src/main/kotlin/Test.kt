@@ -1,4 +1,4 @@
-import com.n9mtq4.eventplacer.EventInfo
+import com.n9mtq4.eventplacer.datamodel.EventInfo
 
 /**
  * Created by will on 11/28/2017 at 8:54 PM.

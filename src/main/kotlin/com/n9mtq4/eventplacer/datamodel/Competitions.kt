@@ -1,4 +1,4 @@
-package com.n9mtq4.eventplacer
+package com.n9mtq4.eventplacer.datamodel
 
 /**
  * Created by will on 11/28/2017 at 7:20 PM.
@@ -34,6 +34,7 @@ data class Competition(val name: String, val type: CompetitionType) {
  * */
 enum class CompetitionType(val importance: Int) {
 	
+	// TODO: LOW make the types and importance user configurable
 	NATIONALS(0),
 	STATES(1),
 	REGIONAL(2),

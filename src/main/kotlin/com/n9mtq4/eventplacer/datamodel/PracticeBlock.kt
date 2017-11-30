@@ -1,4 +1,4 @@
-package com.n9mtq4.eventplacer
+package com.n9mtq4.eventplacer.datamodel
 
 /**
  * Created by will on 11/28/2017 at 7:08 PM.
