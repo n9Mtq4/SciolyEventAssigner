@@ -1,10 +1,23 @@
-package com.n9mtq4.eventplacer.datamodel
+package com.n9mtq4.eventplacer.datamodel.info
 
 /**
  * Created by will on 11/28/2017 at 7:18 PM.
  *
  * @author Will "n9Mtq4" Bresnahan
  */
+
+/**
+ * Type alias for a list of people
+ * */
+typealias PersonList = List<Person>
+
+/**
+ * Creates a new person list with the people as arguments
+ * added to that new list by default.
+ * 
+ * @param people the people to initially add to this new list
+ * */
+internal fun newPersonList(vararg people: Person): PersonList = people.toList()
 
 /**
  * Data structure for storing information on a person

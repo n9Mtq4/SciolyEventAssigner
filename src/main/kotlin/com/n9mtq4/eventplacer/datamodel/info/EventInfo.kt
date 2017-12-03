@@ -1,10 +1,15 @@
-package com.n9mtq4.eventplacer.datamodel
+package com.n9mtq4.eventplacer.datamodel.info
 
 /**
  * Created by will on 11/28/2017 at 7:11 PM.
  *
  * @author Will "n9Mtq4" Bresnahan
  */
+
+/**
+ * Typealias for list of event information
+ * */
+typealias EventInfoList = List<EventInfo>
 
 /**
  * Data structure to store and check event conflicts.

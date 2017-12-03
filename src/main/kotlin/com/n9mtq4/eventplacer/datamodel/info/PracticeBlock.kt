@@ -1,4 +1,6 @@
-package com.n9mtq4.eventplacer.datamodel
+package com.n9mtq4.eventplacer.datamodel.info
+
+import com.n9mtq4.eventplacer.datamodel.Day
 
 /**
  * Created by will on 11/28/2017 at 7:08 PM.

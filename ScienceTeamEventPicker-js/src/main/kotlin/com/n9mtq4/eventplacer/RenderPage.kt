@@ -1,5 +1,6 @@
 package com.n9mtq4.eventplacer
 
+import com.n9mtq4.eventplacer.datamodel.info.EventInfo
 import kotlinx.html.*
 import kotlinx.html.dom.create
 import kotlin.browser.document
@@ -30,6 +31,13 @@ fun renderNotDoneYetPage() {
 		h4 { 
 			+"Coming Soon!"
 		}
+		
+		div {
+			val event = EventInfo("WIDI", 2, listOf())
+			val str = "Test Event String: $event"
+			+str
+		}
+		
 	}
 	document.getElementById("container")!!.appendChild(myDiv)
 	
